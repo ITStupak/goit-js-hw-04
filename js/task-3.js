@@ -1,6 +1,18 @@
 "use strict";
 
-
+const profile = {
+    username: "Jacob",
+    playTime: 300,
+    getInfo() {
+        return `${this.username} has ${this.playTime} active hours!`
+    },
+    changeUsername(newName) {
+        this.username = newName;
+    },
+    updatePlayTime(hours) {
+        this.playTime += hours;
+    }
+};
 
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
