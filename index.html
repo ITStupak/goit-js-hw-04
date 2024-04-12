@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Homework-4</title>
+  </head>
+  <body>
+    <h1 class="title">JavaScript 3.0. Homework-4.</h1>
+    <p class="hw-task"><b>Task-1. Пакування товарів.</b></p>
+    <p class="hw-dscr">
+      Напиши функцію <b>isEnoughCapacity(products, containerSize)</b>, яка
+      обчислює, чи помістяться всі товари в контейнер при пакуванні.
+      <br />Функція оголошує два параметри: <b>products</b> — об’єкт, у якому
+      ключі містять назви товарів, а їхні значення — кількість цих товарів.
+      <br />Наприклад, <b>{ apples: 2, grapes: 4 }</b>. <br />
+      <b>containerSize</b> — число, максимальна кількість одиниць товарів, яку в
+      себе може вмістити контейнер. <br />Функція має повернути результат
+      перевірки, чи помістяться всі товари в контейнер. <br />Тобто порахувати
+      загальну кількість товарів в об’єкті <b>products</b> і повернути
+      <b>true</b>, якщо вона менше або дорівнює <b>containerSize</b>, і
+      <b>false</b>, якщо ні.
+    </p>
+
+    <p class="hw-task"><b>Task-2. Розрахунок калорій.</b></p>
+    <p class="hw-dscr">
+      Напиши функцію <b>calcAverageCalories(days)</b>, яка повертає
+      середньодобове значення кількості калорій, які спортсмен споживав протягом
+      тижня. <br />Функція очікує один параметр: <b>days</b> — масив об’єктів.
+      Кожен об’єкт описує день тижня та кількість калорій <b>calories</b>,
+      спожитих спортсменом, у цей день.
+    </p>
+
+    <p class="hw-task"><b>Task-3. Профіль гравця.</b></p>
+    <p class="hw-dscr">
+      Об’єкт profile описує профіль користувача на ігровій платформі. <br />У
+      його властивостях зберігається ім’я профілю <b>username</b> та кількість
+      активних годин <b>playTime</b>, проведених у грі. <br />
+      <b
+        >const profile = {<br />
+        username: "Jacob",<br />
+        playTime: 300,<br />
+        };</b
+      ><br />
+      Доповни об’єкт <b>profile {}</b> методами для роботи з його властивостями.
+      <br />
+      Метод <b>changeUsername(newName)</b> повинен приймати рядок (нове ім’я) в
+      параметр newName та змінювати значення властивості username на нове.
+      Нічого не повертає. <br />
+      Метод <b>updatePlayTime(hours)</b> повинен приймати число (кількість
+      годин) у параметр <b>hours</b> та збільшити на нього значення властивості
+      <b>playTime</b>. Нічого не повертає. <br />
+      Метод <b>getInfo()</b> має повертати рядок формату: <b>"Username</b> has
+      <b>amount</b> active hours!", <br />
+      де <b>Username</b> — це ім’я профілю, а <b>amount</b> — кількість ігрових
+      годин.
+    </p>
+
+    <!-- <script src="./js/task-1.js" type="module"></script> -->
+    <!-- <script src="./js/task-2.js" type="module"></script> -->
+    <!-- <script src="./js/task-3.js" type="module"></script> -->
+  </body>
+</html>
